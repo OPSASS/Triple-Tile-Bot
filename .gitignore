@@ -1,4 +1,62 @@
-build
-dist
-dist-ssr
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython debug symbols
+cython_debug/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyInstaller
+# Thư mục build và các file thực thi được tạo
+build/
+dist/
 *.spec
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Thư mục logs hoặc file log
+*.log
+
+# Thư mục test coverage
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+pytest_cache/
+.pytest_cache/
+.tox/
+
+# Thư mục tạm hoặc file tạm
+*.tmp
+*.swp
+*.bak
+
+# Thư viện được cài đặt nếu dùng pip freeze
+pip-log.txt
+
+# dotenv file (chứa biến môi trường)
+.env
+.env.*
+
+# Database
+*.sqlite3
+*.db
+
+# Nếu bạn dùng PyCharm
+.idea/
